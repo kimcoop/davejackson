@@ -1,0 +1,38 @@
+/*
+*= BASE VARIABLES
+*/
+
+// Sizes
+$width: 1170px;
+
+// Colors
+
+$color-teal: #309A96;
+$color-teal-2: #387371;
+$color-teal-3: #106461;
+
+$color-yellow: #FDC24F;
+$color-yellow-2: #BE9D5C;
+$color-yellow-3: #A4751A;
+
+$color-red: #F84F53;
+$color-red-2: #BC5B5E;
+$color-red-3: #A31A1D;
+
+$color-text: #333;
+$color-link: $color-teal-2;
+$color-hover: $color-red;
+// Fonts
+
+// Borders
+
+// Placeholders
+
+%clearfix {
+  &:after {
+    content: '';
+    display: table;
+    width: 100%;
+    height: 0.1px;
+  }
+}

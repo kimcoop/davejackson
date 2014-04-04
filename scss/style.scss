@@ -1,0 +1,56 @@
+/*!
+Theme Name: dj
+Theme URI: http://www.davejacksonphotojournalist.com
+Author: Kim Cooperrider
+Author URI: http://www.kimcoop.com
+Description: dj custom theme.
+Version 1.0
+License: The MIT License (MIT)
+License URI: http://opensource.org/licenses/MIT
+*/
+
+/* FONTS
+-------------------------- */
+// Uncomment/use this file if you install any custom fonts
+// @import "fonts/all";
+
+/* COMPASS
+-------------------------- */
+// Uncomment if using Compass
+@import "compass/css3";
+// @import "compass/utilities";
+// @import "compass/typography/lists";
+// @import "compass/typography/text";
+
+
+/* RESET & BASE
+------------------ */
+@import "reset";
+@import "mixins";
+@import "base";
+
+/* =LAYOUTS
+------------------ */
+@import "layout";
+@import "header";
+@import "nav";
+@import "footer";
+
+/* =CONTENT
+------------------ */
+@import "typography";
+@import "forms";
+
+/* =COMPONENTS
+------------------ */
+/* Includes password protection for pages and posts, 404 page */
+@import "components";
+
+
+/* =PROJECT PAGES SPECIFIC
+------------------ */
+@import "pages";
+
+/* =BLOG SPECIFIC
+------------------ */
+@import "blog/all";
